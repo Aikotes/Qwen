@@ -1,0 +1,13 @@
+2026-09-15 00:07:19,173 - DEBUG - Using proactor: IocpProactor
+2026-09-15 00:07:19,175 - INFO - ============================================================
+2026-09-15 00:07:19,176 - INFO - Rule34.xxx Tag Collector (Camoufox + Playwright)
+2026-09-15 00:07:19,177 - INFO - ============================================================
+2026-09-15 00:07:19,178 - INFO - Запуск браузера через Camoufox...
+2026-09-15 00:07:19,179 - INFO - Настройка прокси: 192.168.0.3:9100
+2026-09-15 00:07:19,179 - ERROR - Критическая ошибка: 'AsyncCamoufox' object has no attribute 'launch'
+Traceback (most recent call last):
+  File "E:\HDD2\Downloads\rule34_tag_collector_diff4.py", line 204, in main
+    await collector.setup_browser()
+  File "E:\HDD2\Downloads\rule34_tag_collector_diff4.py", line 64, in setup_browser
+    self.browser = await self.camoufox.launch(
+AttributeError: 'AsyncCamoufox' object has no attribute 'launch'
